@@ -1,0 +1,98 @@
+<html>
+<head>
+</head>
+
+
+
+
+<body>
+<h3>Ifconfig</h3> - It is used to configure the kernel-resident network interfaces. It is used at boot time to set up interfaces as necessary. After that, it is usually only needed when debugging or when system tuning is needed. If no arguments are given, ifconfig displays the status of the currently active interfaces.
+
+<h3>system-config-network</h3> - It is used to configure network setting like IP Address, Gateway, DNS. It is the user interface of the network configuration tool, supporting Ethernet, Wireless, TokenRing, ADSL, ISDN and PPP.
+
+<h3>Traceroute</h3> - traceroute command in Linux prints the route that a packet takes to reach the host. This command is useful when you want to know about the route and about all the hops that a packet takes. Below image depicts how traceroute command is used to reach the Google(172.217.26.206) host from the local machine and it also prints detail about all the hops that it visits in between.
+
+<h3>Bmon</h3> -  is a powerful CLI based network bandwidth monitoring and debugging tool for Unix / Linux systems to capture networking related statistics & present them visually on the command line in a human-friendly way. It captures the traffic usage over all the network interfaces on the system. It is an effective and fast real-time network bandwidth monitor and rate estimator.
+
+<h3>Ping</h3> - It is command is used to check the network connectivity between host and server/host. This command takes as input the IP address or the URL and sends a data packet to the specified address with the message “PING” and get a response from the server/host this time is recorded which is called latency. Fast ping low latency means faster connection.
+
+<h3>SSH</h3> - ssh stands for “Secure Shell”. It is a protocol used to securely connect to a remote server/system. ssh is secure in the sense that it transfers the data in encrypted form between the host and the client. It transfers inputs from the client to the host and relays back the output. ssh runs at TCP/IP port 22.
+
+<h3>Dig</h3> - The dig command in Linux is used to gather DNS information. It stands for Domain Information Groper, and it collects data about Domain Name Servers. The dig command is helpful for diagnosing DNS problems, but is also used to display DNS information.
+
+<h3>TCPdump</h3> - tcpdump is a command-line utility that you can use to capture and inspect network traffic going to and from your system. It is the most commonly used tool among network administrators for troubleshooting network issues and security testing.
+Despite its name, with tcpdump, you can also capture non-TCP traffic such as UDP, ARP, or ICMP. The captured packets can be written to a file or standard output.
+
+<h3>Telnet</h3> - In Linux, the telnet command is used to create a remote connection with a system over a TCP/IP network. It allows us to administrate other systems by the terminal. We can run a program to conduct administration.It uses a TELNET protocol. However, this protocol has some security defects, but it is one of the most used networking protocols due to its simplicity. It is not a secure protocol because it transfers data in unencrypted form. Often Linux user prefers ssh over telnet because ssh transfers data in encrypted form. This utility is similar to the Remote Desktop feature in Windows.
+
+
+
+<h3>dstat</h3> - dstat is a tool that is used to retrieve information or statistics form components of the system such as network connections, IO devices, or CPU, etc. It is generally used by system administrators to retrieve a handful of information about the above-mentioned components of the system. It itself performs like vmstat, netstat, iostat, etc. By using this tool one can even see the throughput for block devices that make up a single filesystem or storage system.
+
+<h3>nslookup</h3> - Nslookup (stands for “Name Server Lookup”) is a useful command for getting information from DNS server. It is a network administration tool for querying the Domain Name System (DNS) to obtain domain name or IP address mapping or any other specific DNS record. It is also used to troubleshoot DNS related problems.
+
+<h3>dhclient</h3> - dhclient, provides a means for configuring one or more network interfaces using the Dynamic Host Configuration Protocol, BOOTP protocol, or if these protocols fail, by statically assigning an address.A DHCP client may request an address from this pool, and then use it on a temporary basis for communication on network. The DHCP protocol also provides a mechanism whereby a client can learn important details about the attached network, such as the location of a default router, the location of a name server, etc.
+
+<h3>Netstat</h3> - Netstat is a command line utility that can be used to list out all the network (socket) connections on a system. It lists out all the tcp, udp socket connections and the unix socket connections. Apart from connected sockets it can also list listening sockets that are waiting for incoming connections. So by verifying an open port 80 you can confirm if a web server is running on the system or not
+
+<h3>Nload</h3> - nload is a command-line tool to keep an eye on network traffic and bandwidth usage in real time. It helps you to monitor incoming and outgoing traffic using graphs and provides additional information such as the total amount of transferred data and min/max network usage.
+
+<h3>scp</h3> - SCP (secure copy) is a command-line utility that allows us to securely copy files and directories between two locations.With scp, you can copy a file or directory:
+From our local system to a remote system.
+From a remote system to your local system.
+Between two remote systems from your local system.
+When transferring data with scp, both the files and password are encrypted so that anyone snooping on the traffic doesn’t get anything sensitive.
+
+<h3>iftop</h3> - iftop is used to view the current bandwidth on a network interface. It listens to network traffic on a named interface and displays a table of current bandwidth usage by pairs of hosts. iftop must be run by a root user or a user who has sufficient privileges to monitor network bandwidths.
+
+<h3>w</h3> - w command in Linux is used to show who is logged on and what they are doing. This command shows the information about the users currently on the machine and their processes. The header shows, in this order, the current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes. The following entries are displayed for each user: login name, the tty name, the remote host, login time, idle time, JCPU, PCPU, and the command line of their current process.
+
+<h3>ip</h3> - The ip command is a powerful tool for configuring network interfaces that any Linux system administrator should know. It is used to bring interfaces up or down, assign and remove addresses and routes, manage ARP cache, and much more. The configurations set with the ip command are not persistent. After a system restart, all changes are lost. To make the changes permanent, you need to edit the distro-specific configuration files or add the commands to a startup script.
+
+<h3>nmap</h3> - Nmap is Linux command-line tool for network exploration and security auditing. This tool is generally used by hackers and cybersecurity enthusiasts and even by network and system administrators. It is used for the following purposes: 
+Real time information of a network
+Detailed information of all the IPs activated on your network
+Number of ports open in a network
+Provide the list of live hosts
+Port, OS and Host scaning
+
+<h3>Route</h3> - route command in Linux is used when you want to work with the IP/kernel routing table. It is mainly used to set up static routes to specific hosts or networks via an interface. It is used for showing or update the IP/kernel routing table.
+
+<h3>ifup</h3> - The ifup command basically brings the network interface up, allowing it to transmit and receive data. Technically ifup command is used to configure network interfaces based on interface definitions in the file /etc/network/interfaces.
+
+<h3>ifdown </h3>- user can use ifdown command to bring network interface down, not allowing the user to transmit and receive data. Technically it places the network interface in a state where it cannot transmit or receive data. It is used to configure network interfaces based on interface definitions in the file /etc/network/interfaces.
+
+<h3>iptables</h3> - iptables is a command line interface used to set up and maintain tables for the Netfilter firewall for IPv4, included in the Linux kernel. The firewall matches packets with rules defined in these tables and then takes the specified action on a possible match.
+Tables is the name for a set of chains.
+Chain is a collection of rules.
+Rule is condition used to match packet.
+Target is action taken when a possible rule matches. Examples of the target are ACCEPT, DROP, QUEUE.
+
+<h3>sftp</h3> - SFTP (SSH File Transfer Protocol) is a secure file protocol that is used to access, manage, and transfer files over an encrypted SSH transport.SFTP works on a client-server model. It is a subsystem of SSH and supports all SSH authentication mechanisms.
+To open an SFTP connection to a remote system, use the sftp command followed by the remote server username and the IP address or domain name:
+
+<h3>host</h3> - host command in Linux system is used for DNS (Domain Name System) lookup operations. In simple words, this command is used to find the IP address of a particular domain name or if you want to find out the domain name of a particular IP address the host command becomes handy.without any option: It will print the general syntax of the command along with the various options that can be used with the host command as well as gives a brief description about each option.
+
+<h3>Socat</h3> - Socat is a command line based utility that establishes two bidirectional byte streams and transfers data between them. Because the streams can be constructed from a large set of different types of data sinks and sources (see address types), and because lots of address options may be applied to the streams, socat can be used for many different purposes.
+socat Usage:
+TCP port forwarder
+External socksifier
+Attacking weak firewalls (security testing)
+
+<h3>arp</h3> - arp command manipulates the System’s ARP cache. It also allows a complete dump of the ARP cache. ARP stands for Address Resolution Protocol. The primary function of this protocol is to resolve the IP address of a system to its mac address, and hence it works between level 2(Data link layer) and level 3(Network layer).
+
+<h3>rsync</h3> - rsync or remote synchronization is a software utility for Unix-Like systems that efficiently sync files and directories between two hosts or machines. One of them being the source or the local-host from which the files will be synced, the other one being the remote-host, on which synchronization will take place. There are basically two ways in which rsync can copy/sync data:
+Copying/syncing to/from another host over any remote shell like ssh, rsh.
+Copying/Syncing through rsync daemon using TCP.
+
+<h3>Ethtool</h3> - ethtool is a networking utility on Linux. It is used to configure Ethernet devices on Linux. ethtool can also be used to find a lot of information about connected Ethernet devices on your Linux computer. It can be used display information about the network interface cards (NICs) connected to your computer with ethtool utility. To do that, you need the network interface name of your network interface card (NIC).
+
+<h3>wget</h3> - Wget is the non-interactive network downloader which is used to download files from the server even when the user has not logged on to the system and it can work in the background without hindering the current process.wget is non-interactive, meaning that it can work in the background, while the user is not logged on. This allows you to start a retrieval and disconnect from the system, letting wget finish the work. By contrast, most of the Web browsers require constant user’s presence, which can be a great hindrance when transferring a lot of data.
+
+<h3>iwconfig</h3> - iwconfig command in Linux is like ifconfig command, in the sense it works with kernel-resident network interface but it is dedicated to wireless networking interfaces only. It is used to set the parameters of the network interface that are particular to the wireless operation like SSID, frequency etc. iwconfig may also be used to display the parameters, and the wireless statistics which are extracted from /proc/net/wireless.
+
+<h3>curl</h3> - curl is a command line tool to transfer data to or from a server, using any of the supported protocols (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP or FILE). curl is powered by Libcurl. This tool is preferred for automation, since it is designed to work without user interaction. curl can transfer multiple file at once. 
+ex  - curl www.desi-bhabhi.com
+
+</body>
+</html>
